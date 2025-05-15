@@ -1,4 +1,3 @@
-
 local ScreenGui = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
@@ -24,7 +23,7 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-    Title = "Script Tổng Hợp ",
+    Title = "Script T?ng H?p ",
     SubTitle = "by minhnhat(iuvananh)",
     TabWidth = 157,
     Size = UDim2.fromOffset(500, 300),
@@ -33,11 +32,11 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-        Main0=Window:AddTab({ Title="Thông Tin" }),
+        Main0=Window:AddTab({ Title="Th�ng Tin" }),
         Main1=Window:AddTab({ Title="Script Farm" }),
         Main2=Window:AddTab({ Title="Kaitun blox kid" }),
-        Main3=Window:AddTab({ Title="Trồng một khu vườn" }),
-        Main4=Window:AddTab({ Title="Crossover trỗi dậy" }),
+        Main3=Window:AddTab({ Title="Tr?ng m?t khu vu?n" }),
+        Main4=Window:AddTab({ Title="Crossover tr?i d?y" }),
        Main5=Window:AddTab({ Title="Dead gay" }),
        Main6=Window:AddTab({ Title="Fruit battleground" }),
        Main7=Window:AddTab({ Title="Linh Tinh" }),
@@ -72,7 +71,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 })
 
     Tabs.Main1:AddButton({
-    Title="Yuri Hub(có key)",
+    Title="Yuri Hub(c� key)",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/YuriMain", true))()
@@ -80,7 +79,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 })
 
     Tabs.Main1:AddButton({
-    Title="W azure Hub (lỏ)",
+    Title="W azure Hub (l?)",
     Description="",
     Callback=function()
 	  getgenv().Team = "Marines"
@@ -98,7 +97,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 })
 
     Tabs.Main1:AddButton({
-    Title="HOHO Hub (có key)",
+    Title="HOHO Hub (c� key)",
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
@@ -106,7 +105,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 })
 
     Tabs.Main1:AddButton({
-    Title="Cokka hub(có key)",
+    Title="Cokka hub(c� key)",
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
@@ -165,7 +164,7 @@ Tabs.Main1:AddButton({
 })
 
 Tabs.Main2:AddButton({
-    Title="Mukuro(có key)",
+    Title="Mukuro(c� key)",
     Description="",
     Callback=function()
 	  getgenv().Mode = "OneClick"
@@ -316,7 +315,7 @@ Tabs.Main4:AddButton({
 })
 
 Tabs.Main5:AddButton({
-    Title="Skull hub(có key)",
+    Title="Skull hub(c� key)",
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet('https://raw.githubusercontent.com/hungquan99/SkullHub/main/loader.lua'))()
@@ -348,7 +347,7 @@ Tabs.Main5:AddButton({
 })
 
 Tabs.Main7:AddButton({
-    Title="scrip fly sp mọi game",
+    Title="scrip fly sp m?i game",
     Description="",
     Callback=function()
 	  --ARCEUS X FLY V2 SCRIPT
@@ -408,7 +407,7 @@ Tabs.Main1:AddButton({
 })
 
 Tabs.Main1:AddButton({
-    Title="Trẩu Roblox",
+    Title="Tr?u Roblox",
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/stuckez999/main/refs/heads/main/trauroblox.lua"))()
@@ -416,7 +415,7 @@ Tabs.Main1:AddButton({
 })
 
 Tabs.Main1:AddButton({
-    Title="Alchemy Hub(có key)",
+    Title="Alchemy Hub(key)",
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
@@ -444,7 +443,7 @@ Tabs.Main1:AddButton({
     Title="Ganteng Hub",
     Description="",
     Callback=function()
-	  loadstring(game:HttpGet("https://isnahamzahpastebin.tech/gantenghubv1_baru"))() 
+	  loadstring(game:HttpGet("https://isnahamzahpastebin.tech/gantenghubv1_baru"))()�
   end
 })
 
@@ -520,8 +519,8 @@ Tabs.Main5:AddButton({
   end
 })
 
-Tabs.Main6:AddButton({
-    Title="Askien Hub(có key mà ngon hơn:))",
+Tabs.Main6:AddButton(
+    Title="Askien Hub(key:))",
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/KirillEee/Askien-Hub/refs/heads/main/AskienHub"))()
@@ -529,7 +528,7 @@ Tabs.Main6:AddButton({
 })
 
 Tabs.Main6:AddButton({
-    Title="ImpHub",
+    Title="ImpHub(no key)",
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet('https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua'))()
@@ -537,14 +536,14 @@ Tabs.Main6:AddButton({
 })
 
 Tabs.Main6:AddButton({
-    Title="sẽ update thêm",
+    Title="update time",
     Description="",
     Callback=function()
   end
 })
 
 Tabs.Main7:AddButton({
-    Title="scrip tổng hợp trong tổng hợp",
+    Title="scrip tong hop trong tong hop",
     Description="",
     Callback=function()
 	  loadstring(game:HttpGet("https://isnahamzahpastebin.tech/loader/isna_scripthub_10"))()
